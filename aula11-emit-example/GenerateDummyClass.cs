@@ -10,7 +10,7 @@ public class GenerateDummyClass {
 		// get type descriptor of interface
 		Assembly asmLoaded = Assembly.LoadFrom(args[0]);
 		Type baseType = asmLoaded.GetType(args[1]);
-		if (baseType.IsClass) {
+		if (!baseType.IsInterface) {
 			throw new ArgumentException("Type " + baseType.Name + " is not an interface");
 		}
 		// define assemly name
