@@ -8,7 +8,7 @@
 |26854|Rúben Miguel Correia Sousa|1|10|
 |29388|Marisa Cunha Jorge|1|0|
 |29621|David Manuel Brazuna Tavares Gomes|0|0|
-|31124|Daniel José Ferreira Feliciano|0|0|
+|31124|Daniel José Ferreira Feliciano|1|0|
 |31563|Ricardo Emanuel Jesus Teixeira|0|0|
 |31743|RICARDO NUNO FONSECA CACHEIRA|0|0|
 |33017|Edgar Filipe Lima Alves|0|0|
@@ -17,7 +17,7 @@
 |35390|João Paulo Pedro Vinhais|0|0|
 |35392|João Paulo Silva Rodrigues|0|0|
 |35466|Nick Nery Laert|0|0|
-|36122|Pedro Heitor Rebelo Marinho|0|0|
+|36122|Pedro Heitor Rebelo Marinho|1|10|
 |36893|Gonçalo Miguel Barreiros Domingues|0|0|
 |36919|ANDRÉ FILIPE FRAGA DA LUZ|0|0|
 |36929|Jorge Miguel Silva Oliveira|1|0|
