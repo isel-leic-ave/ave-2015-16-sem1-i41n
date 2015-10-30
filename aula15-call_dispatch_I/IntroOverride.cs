@@ -13,8 +13,6 @@ class C : A {
 }
 
 class Program {
-
-
 	static void Main() {
 		A a = new C();  
 		a.M();
