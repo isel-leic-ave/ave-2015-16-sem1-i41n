@@ -8,14 +8,20 @@ class A {
 }
 
 class C : A {
+
+}
+
+class D : C {
 	int field=1;
 	public override void M() { Console.WriteLine("C.M()"); }
 }
 
 class Program {
 	static void Main() {
-		A a = new C();  
+		A a = new D();
 		a.M();
-		((A)a).M();
+
+		C c = (C) a;
+		c.M();
 	}
 }
