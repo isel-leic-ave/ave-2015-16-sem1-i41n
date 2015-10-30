@@ -16,7 +16,11 @@ namespace SimpleCalculatorTest
         [TestMethod]
         public void TestMethodSub()
         {
-            Assert.AreEqual(1, Operations.Sub(2, 1));
+            // prepare 
+            // act
+            double value = Operations.Sub(2, 1);
+            // test
+            Assert.AreEqual(1, value);
         }
     }
 }
