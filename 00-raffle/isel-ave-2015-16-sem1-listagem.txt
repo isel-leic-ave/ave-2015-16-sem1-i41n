@@ -1,67 +1,67 @@
-﻿|19048|Carla Maria Gil Belo|1|0|
-|20199|Samuel Alexandre Miguens Reis Pereira|1|0|
-|23984|Humberto Pedro Pinto Silva|1|0|
-|24423|Ana Raquel Rodrigues Silva|1|0|
-|24538|Marta Isabel Cruz Fernandes|1|0|
-|24718|André Filipe Oliveira Aguiar|0|0|
-|24932|David Manuel Sousa Macedo|0|0|
+﻿|19048|Carla Maria Gil Belo|2|0|
+|20199|Samuel Alexandre Miguens Reis Pereira|2|0|
+|23984|Humberto Pedro Pinto Silva|2|0|
+|24423|Ana Raquel Rodrigues Silva|2|0|
+|24538|Marta Isabel Cruz Fernandes|2|0|
+|24718|André Filipe Oliveira Aguiar|2|0|
+|24932|David Manuel Sousa Macedo|2|0|
 |26854|Rúben Miguel Correia Sousa|1|10|
-|29388|Marisa Cunha Jorge|1|0|
-|29621|David Manuel Brazuna Tavares Gomes|0|0|
-|31124|Daniel José Ferreira Feliciano|1|0|
-|31563|Ricardo Emanuel Jesus Teixeira|0|0|
-|31743|RICARDO NUNO FONSECA CACHEIRA|0|0|
-|33017|Edgar Filipe Lima Alves|0|0|
-|33685|Luis Filipe Sebastião Gordete|1|0|
+|29388|Marisa Cunha Jorge|2|0|
+|29621|David Manuel Brazuna Tavares Gomes|2|0|
+|31124|Daniel José Ferreira Feliciano|2|0|
+|31563|Ricardo Emanuel Jesus Teixeira|2|0|
+|31743|RICARDO NUNO FONSECA CACHEIRA|2|0|
+|33017|Edgar Filipe Lima Alves|2|0|
+|33685|Luis Filipe Sebastião Gordete|2|0|
 |35372|Hugo Manuel Filipe Lourenço|1|10|
-|35390|João Paulo Pedro Vinhais|0|0|
-|35392|João Paulo Silva Rodrigues|0|0|
-|35466|Nick Nery Laert|0|0|
-|36122|Pedro Heitor Rebelo Marinho|1|10|
-|36893|Gonçalo Miguel Barreiros Domingues|0|0|
-|36919|ANDRÉ FILIPE FRAGA DA LUZ|0|0|
-|36929|Jorge Miguel Silva Oliveira|1|0|
-|37323|Ricardo José Lopes Gonçalves|1|0|
-|37330|HUGO FILIPE SÁ VIANA BARROCAS|1|0|
-|37628|João Miguel Alves Pereira|0|0|
-|37659|Luís Alexandre Martins Pinto|0|0|
-|38210|Marco Malaquias Moreira|0|0|
-|38224|Gabriel Filipe Tomé|0|0|
-|38226|Tiago André Marmelo Bogalho|0|0|
-|38242|Vítor Emanuel Bernardo Travassos Antunes|1|0|
-|38585|JOÃO RICARDO MATIAS ROGÉRIO|1|0|
-|38838|RICARDO JORGE MATEUS PEIXE|0|0|
-|39134|Rúben Miguel Gomes Taborda|0|0|
-|39188|Isaac Marques Boucinha|0|0|
-|39197|Daniela Filipa Garcia de Almeida|1|0|
-|39226|Pedro Diogo Alves de Paiva|1|10|
+|35390|João Paulo Pedro Vinhais|2|0|
+|35392|João Paulo Silva Rodrigues|2|0|
+|35466|Nick Nery Laert|2|0|
+|36122|Pedro Heitor Rebelo Marinho|2|10|
+|36893|Gonçalo Miguel Barreiros Domingues|2|0|
+|36919|ANDRÉ FILIPE FRAGA DA LUZ|2|0|
+|36929|Jorge Miguel Silva Oliveira|2|0|
+|37323|Ricardo José Lopes Gonçalves|2|0|
+|37330|HUGO FILIPE SÁ VIANA BARROCAS|2|0|
+|37628|João Miguel Alves Pereira|2|0|
+|37659|Luís Alexandre Martins Pinto|2|0|
+|38210|Marco Malaquias Moreira|2|0|
+|38224|Gabriel Filipe Tomé|2|0|
+|38226|Tiago André Marmelo Bogalho|2|0|
+|38242|Vítor Emanuel Bernardo Travassos Antunes|2|10|
+|38585|JOÃO RICARDO MATIAS ROGÉRIO|2|0|
+|38838|RICARDO JORGE MATEUS PEIXE|2|0|
+|39134|Rúben Miguel Gomes Taborda|1|10|
+|39188|Isaac Marques Boucinha|2|0|
+|39197|Daniela Filipa Garcia de Almeida|2|0|
+|39226|Pedro Diogo Alves de Paiva|2|20|
 |39243|Cláudia Filipa Lino Soares|1|10|
-|39303|Romil Harsadecumar Naggi|0|0|
-|39364|Alexander Russkikh|1|0|
-|39371|Ana Rita Ferreira Monteiro|0|0|
-|39377|Júlio Capucho Ramos de Almeida|1|0|
-|39393|Edgar Filipe Moreira Demétrio|0|0|
-|39611|Ricardo Manuel Oliveira de Jesus|1|0|
-|39612|Hugo José Ribeiros do Pilar|1|0|
-|39615|RICARDO FILIPE DOS SANTOS ANTUNES COSTA|1|0|
-|39617|Tiago Filipe Albano Costa|1|0|
-|39618|Bruno Miguel Albano Costa|0|0|
-|39643|Ronilton Carvalho de Almeida Neves|0|0|
-|40543|GONÇALO RICARDO DAMIÃO|0|0|
-|40547|NUNO MARQUES CARDOSO|0|0|
-|40557|HENRIQUE MANUEL SERENO PÓVOA|1|0|
-|40622|PEDRO MANUEL DA CUNHA GREGÓRIO|0|0|
-|40637|FRANCISCO MIRANDA CASTELÃO DE OLIVEIRA DIAS|0|0|
-|40842|TIAGO MIGUEL PEREIRA DA CUNHA OLIVEIRA|1|0|
-|40907|CARLOS DOS REIS TEIXEIRA|0|0|
-|40908|CLÁUDIO ALEXANDRE LADEIRAS PRATES|0|0|
-|40909|DANIEL ALBERTO LOPES DIAS ROSA|0|0|
-|40916|NUNO MIGUEL FRAGA PEREIRA|0|0|
-|40978|CEDRIC SERGE SERAFIM SANTOS|1|10|
-|41030|JOÃO FILIPE CLEMENTE BENITO TOMÉ|1|0|
-|41658|CAROLINA GASPAR CÂNDIDO|0|0|
-|41661|PEDRO DE SOUSA SILVA LOPES PARREIRA|1|0|
-|30359|Hugo da Silva Castelo|1|0|
-|36857|Luís Miguel Ferreira Guerreiro|0|0|
-|36896|Ricardo da Cunha Vaz Ramos|0|0|
-|35469|Miguel Filipe Marques Pina Coelho|0|0|
+|39303|Romil Harsadecumar Naggi|2|0|
+|39364|Alexander Russkikh|2|0|
+|39371|Ana Rita Ferreira Monteiro|2|0|
+|39377|Júlio Capucho Ramos de Almeida|2|0|
+|39393|Edgar Filipe Moreira Demétrio|2|0|
+|39611|Ricardo Manuel Oliveira de Jesus|2|0|
+|39612|Hugo José Ribeiros do Pilar|2|0|
+|39615|RICARDO FILIPE DOS SANTOS ANTUNES COSTA|2|0|
+|39617|Tiago Filipe Albano Costa|2|0|
+|39618|Bruno Miguel Albano Costa|2|0|
+|39643|Ronilton Carvalho de Almeida Neves|2|0|
+|40543|GONÇALO RICARDO DAMIÃO|2|0|
+|40547|NUNO MARQUES CARDOSO|2|0|
+|40557|HENRIQUE MANUEL SERENO PÓVOA|2|0|
+|40622|PEDRO MANUEL DA CUNHA GREGÓRIO|2|0|
+|40637|FRANCISCO MIRANDA CASTELÃO DE OLIVEIRA DIAS|2|0|
+|40842|TIAGO MIGUEL PEREIRA DA CUNHA OLIVEIRA|2|0|
+|40907|CARLOS DOS REIS TEIXEIRA|2|0|
+|40908|CLÁUDIO ALEXANDRE LADEIRAS PRATES|2|0|
+|40909|DANIEL ALBERTO LOPES DIAS ROSA|2|0|
+|40916|NUNO MIGUEL FRAGA PEREIRA|2|20|
+|40978|CEDRIC SERGE SERAFIM SANTOS|2|10|
+|41030|JOÃO FILIPE CLEMENTE BENITO TOMÉ|2|0|
+|41658|CAROLINA GASPAR CÂNDIDO|2|0|
+|41661|PEDRO DE SOUSA SILVA LOPES PARREIRA|2|0|
+|30359|Hugo da Silva Castelo|2|0|
+|36857|Luís Miguel Ferreira Guerreiro|2|0|
+|36896|Ricardo da Cunha Vaz Ramos|2|10|
+|35469|Miguel Filipe Marques Pina Coelho|2|0|
