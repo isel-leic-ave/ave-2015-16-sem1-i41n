@@ -1,10 +1,10 @@
-﻿|19048|Carla Maria Gil Belo|2|0|
+﻿|19048|Carla Maria Gil Belo|3|0|
 |20199|Samuel Alexandre Miguens Reis Pereira|3|0|
-|23984|Humberto Pedro Pinto Silva|2|0|
+|23984|Humberto Pedro Pinto Silva|3|0|
 |24423|Ana Raquel Rodrigues Silva|3|0|
 |24538|Marta Isabel Cruz Fernandes|3|0|
 |24718|André Filipe Oliveira Aguiar|3|0|
-|24932|David Manuel Sousa Macedo|2|0|
+|24932|David Manuel Sousa Macedo|3|0|
 |26854|Rúben Miguel Correia Sousa|2|10|
 |29388|Marisa Cunha Jorge|3|0|
 |29621|David Manuel Brazuna Tavares Gomes|3|0|
@@ -12,7 +12,7 @@
 |31563|Ricardo Emanuel Jesus Teixeira|3|0|
 |31743|RICARDO NUNO FONSECA CACHEIRA|3|0|
 |33017|Edgar Filipe Lima Alves|3|0|
-|33685|Luis Filipe Sebastião Gordete|2|0|
+|33685|Luis Filipe Sebastião Gordete|3|0|
 |35372|Hugo Manuel Filipe Lourenço|2|10|
 |35390|João Paulo Pedro Vinhais|3|0|
 |35392|João Paulo Silva Rodrigues|3|0|
@@ -21,9 +21,9 @@
 |36893|Gonçalo Miguel Barreiros Domingues|3|0|
 |36919|ANDRÉ FILIPE FRAGA DA LUZ|3|0|
 |36929|Jorge Miguel Silva Oliveira|3|0|
-|37323|Ricardo José Lopes Gonçalves|2|0|
-|37330|HUGO FILIPE SÁ VIANA BARROCAS|2|0|
-|37628|João Miguel Alves Pereira|2|0|
+|37323|Ricardo José Lopes Gonçalves|3|0|
+|37330|HUGO FILIPE SÁ VIANA BARROCAS|3|0|
+|37628|João Miguel Alves Pereira|3|0|
 |37659|Luís Alexandre Martins Pinto|3|0|
 |38210|Marco Malaquias Moreira|3|0|
 |38224|Gabriel Filipe Tomé|3|0|
@@ -35,17 +35,17 @@
 |39188|Isaac Marques Boucinha|3|0|
 |39197|Daniela Filipa Garcia de Almeida|3|0|
 |39226|Pedro Diogo Alves de Paiva|2|20|
-|39243|Cláudia Filipa Lino Soares|2|10|
+|39243|Cláudia Filipa Lino Soares|3|20|
 |39303|Romil Harsadecumar Naggi|3|0|
 |39364|Alexander Russkikh|3|0|
 |39371|Ana Rita Ferreira Monteiro|3|0|
 |39377|Júlio Capucho Ramos de Almeida|3|0|
 |39393|Edgar Filipe Moreira Demétrio|3|0|
-|39611|Ricardo Manuel Oliveira de Jesus|2|0|
+|39611|Ricardo Manuel Oliveira de Jesus|3|0|
 |39612|Hugo José Ribeiros do Pilar|3|0|
-|39615|RICARDO FILIPE DOS SANTOS ANTUNES COSTA|2|0|
+|39615|RICARDO FILIPE DOS SANTOS ANTUNES COSTA|3|0|
 |39617|Tiago Filipe Albano Costa|3|0|
-|39618|Bruno Miguel Albano Costa|2|0|
+|39618|Bruno Miguel Albano Costa|3|0|
 |39643|Ronilton Carvalho de Almeida Neves|3|0|
 |40543|GONÇALO RICARDO DAMIÃO|3|0|
 |40547|NUNO MARQUES CARDOSO|3|0|
