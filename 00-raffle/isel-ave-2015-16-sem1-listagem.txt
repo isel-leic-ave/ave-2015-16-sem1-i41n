@@ -31,7 +31,7 @@
 |38242|Vítor Emanuel Bernardo Travassos Antunes|2|20|
 |38585|JOÃO RICARDO MATIAS ROGÉRIO|3|0|
 |38838|RICARDO JORGE MATEUS PEIXE|3|0|
-|39134|Rúben Miguel Gomes Taborda|2|10|
+|39134|Rúben Miguel Gomes Taborda|2|20|
 |39188|Isaac Marques Boucinha|3|0|
 |39197|Daniela Filipa Garcia de Almeida|3|0|
 |39226|Pedro Diogo Alves de Paiva|2|20|
