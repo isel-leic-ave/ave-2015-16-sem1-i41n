@@ -18,7 +18,7 @@ class Program
 /* 
  * O Counter representa o papel de um Publisher - Lança notificações/eventos.
  */
-class Counter
+public class Counter
 {
     private List<Observer> obs = new List<Observer>();
 
@@ -41,7 +41,7 @@ class Counter
 /*
  * Definição do contracto Observer.
  */
-interface Observer
+public interface Observer
 {
     void Feedback(int value);
 }

@@ -5,7 +5,7 @@
 |24538|Marta Isabel Cruz Fernandes|3|0|
 |24718|André Filipe Oliveira Aguiar|3|0|
 |24932|David Manuel Sousa Macedo|3|0|
-|26854|Rúben Miguel Correia Sousa|2|10|
+|26854|Rúben Miguel Correia Sousa|3|20|
 |29388|Marisa Cunha Jorge|3|0|
 |29621|David Manuel Brazuna Tavares Gomes|3|0|
 |31124|Daniel José Ferreira Feliciano|3|0|
@@ -13,7 +13,7 @@
 |31743|RICARDO NUNO FONSECA CACHEIRA|3|0|
 |33017|Edgar Filipe Lima Alves|3|0|
 |33685|Luis Filipe Sebastião Gordete|3|0|
-|35372|Hugo Manuel Filipe Lourenço|2|10|
+|35372|Hugo Manuel Filipe Lourenço|3|10|
 |35390|João Paulo Pedro Vinhais|3|0|
 |35392|João Paulo Silva Rodrigues|3|0|
 |35466|Nick Nery Laert|3|0|
@@ -63,5 +63,5 @@
 |41661|PEDRO DE SOUSA SILVA LOPES PARREIRA|3|0|
 |30359|Hugo da Silva Castelo|3|0|
 |36857|Luís Miguel Ferreira Guerreiro|3|0|
-|36896|Ricardo da Cunha Vaz Ramos|2|10|
+|36896|Ricardo da Cunha Vaz Ramos|3|10|
 |35469|Miguel Filipe Marques Pina Coelho|3|0|
