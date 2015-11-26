@@ -1,13 +1,12 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Text;
+using System.IO;
 
 public class Student
 {
     public readonly int nr;
-    public readonly String name;
+    public readonly string name;
     public readonly int selected;
     public readonly int grade;
 
@@ -40,8 +39,12 @@ public class Student
 
 static class App
 {
-    private static readonly String STUDENTS_FILE = "..\\00-raffle\\isel-ave-2014-15-sem2-listagem.txt";
+    private static readonly String STUDENTS_FILE = "..\\00-raffle\\isel-ave-2015-16-sem1-listagem.txt";
 
+    static List<Student> StudentsFrom(string path) {
+        return Select(WithLines(path), line => Student.Parse(line));
+    }
+    
     static List<String> WithLines(string path)
     {
         string line;
@@ -56,21 +59,21 @@ static class App
         return res;
     }
 
-    static IEnumerable<R> Select<T, R>(this IEnumerable<T> src, Func<T, R> proj){
+    static List<R> Select<T, R>(this List<T> src, Func<T, R> proj){
         List<R> res = new List<R>();
         foreach(T item in src){
             res.Add(proj(item));
         }
         return res; 
     }
-    static IEnumerable<T> Where<T>(this IEnumerable<T> src, Predicate<T> p){
+    static List<T> Where<T>(this List<T> src, Predicate<T> p){
         List<T> res = new List<T>();
         foreach(T item in src){
             if(p(item)) res.Add(item);
         }
         return res; 
     }
-    static IEnumerable<T> Top<T>(this IEnumerable<T> src, int total){
+    static List<T> Top<T>(this List<T> src, int total){
         int i = 0;
         List<T> res = new List<T>();
         foreach(T item in src){
@@ -80,7 +83,7 @@ static class App
         }
         return res; 
     }
-    static void Foreach<T>(this IEnumerable<T> src, Action<T> a){
+    static void ForEach<T>(this List<T> src, Action<T> a){
         foreach(T item in src){
             a(item);
         }
@@ -92,9 +95,18 @@ static class App
     
     static void Main()
     {
-        // Print(WithLines(STUDENTS_FILE));
+        // Print("ALL: ", WithLines(STUDENTS_FILE));
+        List<Student> stds = StudentsFrom(STUDENTS_FILE);
+        
+        stds
+            .Where(s => s.grade >= 10)
+            .Top(5)
+            .Select(s => s.name)
+            .ForEach(name => Console.WriteLine(name));
+
+           
+/* 
         int iter = 0;
-        /*
         Foreach(
             Top(
                 Where(
@@ -104,30 +116,6 @@ static class App
                     s => { iter++; Print("Filtering", s.nr); return s.grade >= 10;}), 
                 5), 
             Console.WriteLine);
-       Console.WriteLine("iteracoes = " + iter);
-       Console.WriteLine("\n########### With linq:\n");
-       
-       iter = 0;
-        WithLines(STUDENTS_FILE)
-            .Select(line => { iter++; Print("Parsing", line); return Student.Parse(line);})
-            .Where(s => { iter++; Print("Filtering", s.nr); return s.grade >= 10;})
-            .Take(5)
-            .ToList()
-            .ForEach(Console.WriteLine);
-       Console.WriteLine("iteracoes = " + iter);
-       */
-       
-       /*
-       List<Student> res1 = 
-                Where(
-                    Select( 
-                        WithLines(STUDENTS_FILE), 
-                        line => { iter++; Print("Parsing", line); return Student.Parse(line);}), 
-                    s => { iter++; Print("Filtering", s.nr); return s.grade >= 10;});
-     */
-     
-        IEnumerable<Student> res2 = WithLines(STUDENTS_FILE)
-            .Select(line => { iter++; Print("Parsing", line); return Student.Parse(line);})
-            .Where(s => { iter++; Print("Filtering", s.nr); return s.grade >= 10;});
+*/
     }
 }
