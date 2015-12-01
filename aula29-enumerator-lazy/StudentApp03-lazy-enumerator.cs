@@ -41,7 +41,7 @@ static class App
 {
     private static readonly String STUDENTS_FILE = "..\\00-raffle\\isel-ave-2015-16-sem1-listagem.txt";
 
-    static List<Student> StudentsFrom(string path) {
+    static IEnumerable<Student> StudentsFrom(string path) {
         return Select(WithLines(path), line => Student.Parse(line));
     }
     
@@ -59,31 +59,20 @@ static class App
         return res;
     }
 
-    static List<R> Select<T, R>(this List<T> src, Func<T, R> proj){
-        List<R> res = new List<R>();
-        foreach(T item in src){
-            res.Add(proj(item));
-        }
-        return res; 
+    static IEnumerable<R> Select<T, R>(this IEnumerable<T> src, Func<T, R> proj)
+    {
+        return new LazyEnumerable<T, R>(src, proj, item => true, () => false);
     }
-    static List<T> Where<T>(this List<T> src, Predicate<T> p){
-        List<T> res = new List<T>();
-        foreach(T item in src){
-            if(p(item)) res.Add(item);
-        }
-        return res; 
+    static IEnumerable<T> Where<T>(this IEnumerable<T> src, Predicate<T> p)
+    {
+        return new LazyEnumerable<T, T>(src, item => item, p, () => false);
     }
-    static List<T> Top<T>(this List<T> src, int total){
-        int i = 0;
-        List<T> res = new List<T>();
-        foreach(T item in src){
-            if(i == total) break;
-            i++;
-            res.Add(item);
-        }
-        return res; 
+    static IEnumerable<T> Top<T>(this IEnumerable<T> src, int total)
+    {
+        int n = 0;
+        return new LazyEnumerable<T, T>(src, item => item, item => true, () => n++ >= total);
     }
-    static void ForEach<T>(this List<T> src, Action<T> a){
+    static void ForEach<T>(this IEnumerable<T> src, Action<T> a){
         foreach(T item in src){
             a(item);
         }
@@ -96,8 +85,7 @@ static class App
     static void Main()
     {
         // Print("ALL: ", WithLines(STUDENTS_FILE));
-        List<Student> stds = StudentsFrom(STUDENTS_FILE);
-        
+        IEnumerable<Student> stds = StudentsFrom(STUDENTS_FILE);
         int iter = 0;
         stds
             .Where(s =>
@@ -116,8 +104,6 @@ static class App
             .ForEach(name => Console.WriteLine(">>>>>>>>>>>>>>>>>>>" + name));
 
         Console.WriteLine(iter);
-
-
            
 /* 
         int iter = 0;
