@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 using System.IO;
 
 public class Student
@@ -42,10 +43,11 @@ static class App
     private static readonly String STUDENTS_FILE = "..\\00-raffle\\isel-ave-2015-16-sem1-listagem.txt";
 
     static IEnumerable<Student> StudentsFrom(string path) {
-        return Select(WithLines(path), line => Student.Parse(line));
+        IEnumerable<String> lines = WithLines(path);
+        return lines.Select(line => Student.Parse(line));
     }
     
-    static List<String> WithLines(string path)
+    static IEnumerable<String> WithLines(string path)
     {
         string line;
         List<string> res = new List<string>();
@@ -59,47 +61,7 @@ static class App
         return res;
     }
 
-    static IEnumerable<R> Select<T, R>(this IEnumerable<T> src, Func<T, R> proj)
-    {
-        return new LazyEnumerable<T, R>(src, proj, item => true, () => false);
-    }
-    static IEnumerable<T> Where<T>(this IEnumerable<T> src, Predicate<T> p)
-    {
-        return new LazyEnumerable<T, T>(src, item => item, p, () => false);
-    }
-    static IEnumerable<T> Top<T>(this IEnumerable<T> src, int total)
-    {
-        int n = 0;
-        return new LazyEnumerable<T, T>(src, item => item, item => true, () => n++ >= total);
-    }
-    
-    static void ForEach<T>(this IEnumerable<T> src, Action<T> a){
-        foreach(T item in src){
-            a(item);
-        }
-    }
-    
-    static IEnumerable<TSource> Distinct<TSource>(this IEnumerable<TSource> src){ 
-        HashSet<TSource> set = new HashSet<TSource>();
-		return new LazyEnumerable<TSource, TSource>(
-            src, 
-            item => item, 
-            item => set.Add(item), 
-            () => false
-        );
-    }
-    
-    static IEnumerable<TSource> Skip<TSource>(this IEnumerable<TSource> src, int count) {
-        int n=0;
-		return new LazyEnumerable<TSource, TSource>(
-            src, 
-            item => item, 
-            item => n++ >=count,
-            () => false
-        );
-
-    }
-    
+  
     static void Print(string label, Object item){
         Console.WriteLine(label + ": " + item);
     }
@@ -123,10 +85,13 @@ static class App
                 return s.name.Split(' ')[0].ToLower();
             })
             .Distinct()
-            .Skip(3)
-            .Top(10);
+            .Skip(3);
         
-        res.ForEach(name => Console.WriteLine(">>>>>>>>>>>>>>>>>>>" + name));
+        res = res.ToList(); // REdução => traz o resultado das operações anteriores para MEM
+        Console.ReadLine();
+        Console.WriteLine("************ Size = " + res.Count()); // Já nao repete as operações de Filtragem etc..
+        Console.ReadLine();
+        res.ToList().ForEach(name => Console.WriteLine(">>>>>>>>>>>>>>>>>>>" + name));
 
         Console.WriteLine(iter);           
     }

@@ -61,16 +61,24 @@ static class App
 
     static IEnumerable<R> Select<T, R>(this IEnumerable<T> src, Func<T, R> proj)
     {
-        return new LazyEnumerable<T, R>(src, proj, item => true, () => false);
+        foreach(T item in src){
+            yield return proj(item);
+        }
     }
     static IEnumerable<T> Where<T>(this IEnumerable<T> src, Predicate<T> p)
     {
-        return new LazyEnumerable<T, T>(src, item => item, p, () => false);
+        foreach(T item in src){
+            if(p(item)) yield return item;
+        }
     }
     static IEnumerable<T> Top<T>(this IEnumerable<T> src, int total)
     {
-        int n = 0;
-        return new LazyEnumerable<T, T>(src, item => item, item => true, () => n++ >= total);
+        int i = 0;
+        foreach(T item in src){
+            if(i == total) break;
+            i++;
+            yield return item;
+        }
     }
     
     static void ForEach<T>(this IEnumerable<T> src, Action<T> a){
@@ -79,24 +87,20 @@ static class App
         }
     }
     
-    static IEnumerable<TSource> Distinct<TSource>(this IEnumerable<TSource> src){ 
-        HashSet<TSource> set = new HashSet<TSource>();
-		return new LazyEnumerable<TSource, TSource>(
-            src, 
-            item => item, 
-            item => set.Add(item), 
-            () => false
-        );
+    static IEnumerable<T> Distinct<T>(this IEnumerable<T> src){ 
+        HashSet<T> itens = new HashSet<T>();
+        foreach(T item in src){
+            if(itens.Add(item))
+                yield return item;
+        }
     }
     
-    static IEnumerable<TSource> Skip<TSource>(this IEnumerable<TSource> src, int count) {
-        int n=0;
-		return new LazyEnumerable<TSource, TSource>(
-            src, 
-            item => item, 
-            item => n++ >=count,
-            () => false
-        );
+    static IEnumerable<T> Skip<T>(this IEnumerable<T> src, int count) {
+        int i = 0;
+        foreach(T item in src){
+            if(i++ >= count) 
+                yield return item;
+        }
 
     }
     
@@ -113,13 +117,13 @@ static class App
             .Where(s =>
             {
                 iter++;
-                Print("Filtering", s.nr); 
+                // Print("Filtering", s.nr); 
                 return s.grade < 10;
             })
             .Select(s =>
             {
                 iter++;
-                Print("Parsing", s.nr); 
+                // Print("Parsing", s.nr); 
                 return s.name.Split(' ')[0].ToLower();
             })
             .Distinct()

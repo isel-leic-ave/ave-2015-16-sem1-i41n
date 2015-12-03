@@ -28,14 +28,14 @@
 |38210|Marco Malaquias Moreira|3|0|
 |38224|Gabriel Filipe Tomé|3|0|
 |38226|Tiago André Marmelo Bogalho|3|0|
-|38242|Vítor Emanuel Bernardo Travassos Antunes|2|20|
+|38242|Vítor Emanuel Bernardo Travassos Antunes|3|30|
 |38585|JOÃO RICARDO MATIAS ROGÉRIO|3|0|
 |38838|RICARDO JORGE MATEUS PEIXE|3|0|
-|39134|Rúben Miguel Gomes Taborda|2|20|
+|39134|Rúben Miguel Gomes Taborda|3|30|
 |39188|Isaac Marques Boucinha|3|0|
 |39197|Daniela Filipa Garcia de Almeida|3|0|
 |39226|Pedro Diogo Alves de Paiva|2|20|
-|39243|Cláudia Filipa Lino Soares|3|20|
+|39243|Cláudia Filipa Lino Soares|3|30|
 |39303|Romil Harsadecumar Naggi|3|0|
 |39364|Alexander Russkikh|3|0|
 |39371|Ana Rita Ferreira Monteiro|3|0|
