@@ -28,7 +28,8 @@ class Program
         Counter c = new Counter();
         c.DoIt(5, 7);        
         // Observer h1 = Program.Foo;
-        // Observer h2 = value => MessageBox.Show("Item = " + value);
+        
+        Observer h2 = value => MessageBox.Show("Item = " + value);
         A a = new A(2);
         
         // c.obs += h1; c.obs += h2; 
